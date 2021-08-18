@@ -8,8 +8,6 @@ services:
       restart: always
       networks:
          - node-network
-      #volumes:
-      #   - ./app:/usr/src/app
       environment:
          - NODE_PORT=3000
       tty: true
